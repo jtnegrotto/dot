@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = master
+[user]
+	name = Julien Negrotto
+	email = julien@crawfi.sh
+[core]
+	editor = nvim
