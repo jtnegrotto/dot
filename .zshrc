@@ -2,6 +2,8 @@ autoload -U compinit && compinit
 
 bindkey -e
 
+eval "$(rbenv init -)"
+
 PROMPT='%B%F{green}%n%f@%F{green}%m%f:%F{green}%~%f > %b'
 
 HISTFILE="$HOME/.zsh/history"
@@ -11,5 +13,5 @@ setopt inc_append_history
 setopt hist_ignore_space
 
 alias v='nvim'
-
+alias g='git'
 alias dot='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
