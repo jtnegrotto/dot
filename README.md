@@ -6,7 +6,7 @@ On CachyOS, all dependencies can be installed via:
 
 ```
 # pacman -S git neovim ghostty zsh ttf-iosevka-nerd ripgrep ruby-lsp \
-  typescript-language-server rbenv ruby-build tmux
+  typescript-language-server tk rbenv ruby-build pyenv fnm tmux
 ```
 
 ## Installation

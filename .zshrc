@@ -3,6 +3,8 @@ autoload -U compinit && compinit
 bindkey -e
 
 eval "$(rbenv init -)"
+eval "$(pyenv init - zsh)"
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 PROMPT='%B%F{green}%n%f@%F{green}%m%f:%F{green}%~%f > %b'
 
