@@ -5,3 +5,4 @@
 	email = julien@crawfi.sh
 [core]
 	editor = nvim
+	excludesfile = /home/julien/.config/git/gitignore_global
